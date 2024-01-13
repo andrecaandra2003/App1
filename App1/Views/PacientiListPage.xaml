@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Pacienti List"
+             xmlns:viewModels="clr-namespace:App1.ViewModels"  
+             x:DataType="viewModels: PacientiListViewModels"
+             x:Class="App1.Views.PacientiListPage">
+    <VerticalStackLayout>
+        <Label Text="Pacienti List" FontSize="28"/>
+        <Button Text="Add Clienti" Command="{Binding AddUpdateClientiCommand}" HorizontalOptions="EndAndExpand"/>
+    </VerticalStackLayout>
+</ContentPage>
